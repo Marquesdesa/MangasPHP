@@ -1,0 +1,127 @@
+html {
+    width: 100vw;
+    height: 100vh;
+    font-size: 52%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.882), rgba(0, 0, 0, 0.882)), url("../img/MANGÁS.PHP_LG.png");
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+.content {
+    width: 100vw;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding-left: 30rem;
+    position: fixed;
+    box-shadow: 0px 0px 6px 3px;
+    color: white;
+}
+
+.logo {
+    width: 125px;
+    height: auto;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.content .list-menu {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.content .list-menu li a {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    padding-right: 10rem;
+    padding-left: 1rem;
+    font-size: 2rem;
+    font-family: 'Bebas Neue, sans-serif';
+    color: white;
+    transition: all 200ms ease-in;
+}
+
+.contenttitulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    padding-top: 30rem;
+}
+
+.contenttitulo h1 {
+    font-size: 6rem;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    margin-left: 35rem;
+    font-family: 'Permanent Marker, cursive';
+    text-shadow: 4px 4px 3px rgb(0, 0, 0);
+}
+
+.contenttitulo p {
+    font-family: 'Permanent Marker, cursive';
+    display: flex;
+    text-align: center;
+    font-size: 2.0rem;
+    width: 900px;
+    margin-left: 40rem;
+    color: whitesmoke;
+}
+
+.fundo{
+    background-image: linear-gradient(rgba(105, 70, 70, 0.497), rgba(105, 70, 70, 0.497));
+    height: 60%;
+    width: 90%;
+    margin-top: -10rem;
+    border-radius: 2rem;
+    box-shadow: 0px 0px 4px 3px;
+    margin-left: 9rem;
+    
+}
+
+.cardmanga {
+    width: 80%;
+    padding-left: 15rem;
+    margin-top: -40rem;
+    padding-top: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.cardmanga div {
+    width: 30rem;
+    background: rgba(0, 0, 0, 0.655);
+    box-shadow: 0px 0px 6px 4px;
+    color: white;
+    border-radius:10px;
+    background-position: center;
+}
+
+
+.cardmanga img {
+    width: 25rem;
+    height: 90%;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 2.5rem;
+}

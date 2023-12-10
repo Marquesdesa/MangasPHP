@@ -1,0 +1,18 @@
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.767), rgba(0, 0, 0, 0.767)), url("../img/triade.jpg");
+    background-position:center;
+    background-size: cover;
+}
+
+main {
+    background-color: rgba(255, 255, 255, 0.329)!important;
+    
+}
+
+input{
+    background-color: rgba(255, 255, 255, 0.384)!important;
+}
+
+button{
+    background-color: rgba(255, 255, 255, 0.384)!important;
+}
